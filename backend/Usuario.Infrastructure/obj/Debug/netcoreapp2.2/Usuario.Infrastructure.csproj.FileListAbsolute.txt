@@ -1,0 +1,12 @@
+C:\workspace\CapitaniRommanel\backend\Usuario.Infrastructure\bin\Debug\netcoreapp2.2\Usuario.Domain.dll
+C:\workspace\CapitaniRommanel\backend\Usuario.Infrastructure\obj\Debug\netcoreapp2.2\Usuario.Infrastructure.csprojAssemblyReference.cache
+C:\workspace\CapitaniRommanel\backend\Usuario.Infrastructure\obj\Debug\netcoreapp2.2\Usuario.Infrastructure.csproj.CoreCompileInputs.cache
+C:\workspace\CapitaniRommanel\backend\Usuario.Infrastructure\obj\Debug\netcoreapp2.2\Usuario.Infrastructure.AssemblyInfoInputs.cache
+C:\workspace\CapitaniRommanel\backend\Usuario.Infrastructure\obj\Debug\netcoreapp2.2\Usuario.Infrastructure.AssemblyInfo.cs
+C:\workspace\CapitaniRommanel\backend\Usuario.Infrastructure\bin\Debug\netcoreapp2.2\Usuario.Infrastructure.deps.json
+C:\workspace\CapitaniRommanel\backend\Usuario.Infrastructure\bin\Debug\netcoreapp2.2\Usuario.Infrastructure.dll
+C:\workspace\CapitaniRommanel\backend\Usuario.Infrastructure\bin\Debug\netcoreapp2.2\Usuario.Infrastructure.pdb
+C:\workspace\CapitaniRommanel\backend\Usuario.Infrastructure\bin\Debug\netcoreapp2.2\Usuario.Domain.pdb
+C:\workspace\CapitaniRommanel\backend\Usuario.Infrastructure\obj\Debug\netcoreapp2.2\Usuario.Infrastructure.csproj.CopyComplete
+C:\workspace\CapitaniRommanel\backend\Usuario.Infrastructure\obj\Debug\netcoreapp2.2\Usuario.Infrastructure.dll
+C:\workspace\CapitaniRommanel\backend\Usuario.Infrastructure\obj\Debug\netcoreapp2.2\Usuario.Infrastructure.pdb

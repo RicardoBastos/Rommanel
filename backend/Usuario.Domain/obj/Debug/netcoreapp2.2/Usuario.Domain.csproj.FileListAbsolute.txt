@@ -1,0 +1,12 @@
+C:\workspace\CapitaniRommanel\backend\Usuario.Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.csprojAssemblyReference.cache
+C:\workspace\CapitaniRommanel\backend\Usuario.Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.csproj.CoreCompileInputs.cache
+C:\workspace\CapitaniRommanel\backend\Usuario.Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.AssemblyInfoInputs.cache
+C:\workspace\CapitaniRommanel\backend\Usuario.Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.AssemblyInfo.cs
+C:\workspace\CapitaniRommanel\backend\Usuario.Domain\bin\Debug\netcoreapp2.2\Usuario.Domain.deps.json
+C:\workspace\CapitaniRommanel\backend\Usuario.Domain\bin\Debug\netcoreapp2.2\Usuario.Domain.dll
+C:\workspace\CapitaniRommanel\backend\Usuario.Domain\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+C:\workspace\CapitaniRommanel\backend\Usuario.Domain\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
+C:\workspace\CapitaniRommanel\backend\Usuario.Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.csproj.CopyComplete
+C:\workspace\CapitaniRommanel\backend\Usuario.Domain\bin\Debug\netcoreapp2.2\Usuario.Domain.pdb
+C:\workspace\CapitaniRommanel\backend\Usuario.Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.dll
+C:\workspace\CapitaniRommanel\backend\Usuario.Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.pdb
