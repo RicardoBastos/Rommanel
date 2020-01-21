@@ -8,7 +8,7 @@ namespace Usuario.Domain.Validation
         public void ValidarId()
         {
             RuleFor(p => p.Id)
-                .GreaterThan(0).WithMessage("O Id precisa ser maior que zero");
+                .NotEmpty().WithMessage("O Id precisa ser fornecido");
         }
 
         public void ValidarNome()

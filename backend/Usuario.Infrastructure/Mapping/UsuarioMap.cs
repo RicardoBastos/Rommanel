@@ -19,7 +19,7 @@ namespace Usuario.Infrastructure.Mapping
 
             builder.HasData(
                 new Domain.Entities.Usuario {
-                    Id = 1,
+                    Id = Guid.NewGuid(),
                     Nome = "Ricardo Bastos",
                     DataNascimento = DateTime.Now,
                     Email ="ricardo@ricardo.com",
@@ -27,7 +27,8 @@ namespace Usuario.Infrastructure.Mapping
                     Cidade="Sao Jose",
                     Estado="São Paulo"
                 },
-                new Domain.Entities.Usuario { Id = 2,
+                new Domain.Entities.Usuario {
+                    Id = Guid.NewGuid(),
                     Nome = "José Francisco",
                     Email = "ricardo@ricardo.com",
                     DataNascimento = DateTime.Now,

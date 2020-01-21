@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using Usuario.Domain.Interfaces.Repository;
 
 namespace Usuario.Infrastructure.Repositories
@@ -22,8 +23,13 @@ namespace Usuario.Infrastructure.Repositories
         public virtual IEnumerable<TEntity> GetAll() =>
             db.Set<TEntity>().ToList();
 
-        public virtual TEntity GetById(int? id) =>
+        public virtual TEntity GetById(Guid? id) =>
             db.Set<TEntity>().Find(id);
+
+        public virtual TEntity Get(Expression<Func<TEntity, bool>> where)
+        {
+            return db.Set<TEntity>().FirstOrDefault(where);
+        }
 
         public virtual void Remove(TEntity obj)
         {

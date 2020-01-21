@@ -6,7 +6,7 @@ namespace Usuario.Domain.Command
     {
         public AtualizarUsuarioCmd() { }
 
-        public AtualizarUsuarioCmd(int id, string nome, string email, string cpf, DateTime dataNascimento, string cidade, string estado)
+        public AtualizarUsuarioCmd(Guid id, string nome, string email, string cpf, DateTime dataNascimento, string cidade, string estado)
         {
             this.Id = id;
             this.Nome = nome;

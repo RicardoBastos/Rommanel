@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -18,7 +19,6 @@ namespace Usuario.API.Controllers
         private readonly IUsuarioRepository usuarioRepository;
 
 
-
         public UsuariosController(IMediator mediator, IUsuarioRepository usuarioRepository)
         {
             this.mediator = mediator;
@@ -27,7 +27,7 @@ namespace Usuario.API.Controllers
 
 
         [HttpGet("{id}")]
-        public Usuario.Domain.Entities.Usuario GetById(int id)
+        public Usuario.Domain.Entities.Usuario GetById(Guid id)
         {
             return usuarioRepository.GetById(id);
         }
@@ -41,10 +41,6 @@ namespace Usuario.API.Controllers
 
 
         [HttpPost]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status201Created)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<Result> Post([FromBody]InserirUsuarioCmd usuario)
         {
             var result = await mediator.Send<Result>(usuario);
@@ -52,15 +48,21 @@ namespace Usuario.API.Controllers
         }
 
 
-        [HttpPut]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status201Created)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<Result> Put([FromBody]AtualizarUsuarioCmd usuario)
+        [HttpPut("{Id}")]
+        public async Task<Result> Put(Guid Id, [FromBody]AtualizarUsuarioCmd usuario)
         {
+            usuario.SetId(Id);
             var result = await mediator.Send<Result>(usuario);
             return result;
+        }
+
+
+        [HttpDelete("{Id}")]
+        public async Task<Result> Delete(Guid Id)
+        {
+            var result = await mediator.Send<Result>(new ApagarUsuarioCmd(Id));
+            return result;
+            
         }
 
     }

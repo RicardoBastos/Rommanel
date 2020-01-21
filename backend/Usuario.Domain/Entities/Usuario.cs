@@ -2,14 +2,14 @@
 
 namespace Usuario.Domain.Entities
 {
-    public class Usuario : BaseEntity<int>
+    public class Usuario : BaseEntity<Guid>
     {
         public Usuario()
         {
 
         }
 
-        public void SetUsuario(int id, string nome, string email, 
+        public void SetUsuario(Guid id, string nome, string email, 
             string cpf, DateTime dataNascimento,string cidade, string estado )
         {
             this.Id = id;

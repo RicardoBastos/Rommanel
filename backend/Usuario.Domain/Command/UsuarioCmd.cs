@@ -8,7 +8,7 @@ namespace Usuario.Domain.Command
 {
     public class UsuarioCmd : IRequest<Result>, ICommand
     {
-        public int Id { get; set; }
+        public Guid Id { get; protected set; }
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Cpf { get; set; }
@@ -16,7 +16,7 @@ namespace Usuario.Domain.Command
         public string Cidade { get; set; }
         public string Estado { get; set; }
 
-        public void SetId(int id)
+        public void SetId(Guid id)
         {
             this.Id = id;
         }

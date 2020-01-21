@@ -1,10 +1,11 @@
-﻿using Usuario.Domain.Validation;
+﻿using System;
+using Usuario.Domain.Validation;
 
 namespace Usuario.Domain.Command
 {
     public class ApagarUsuarioCmd : UsuarioCmd
     {
-        public ApagarUsuarioCmd(int id) =>
+        public ApagarUsuarioCmd(Guid id) =>
             this.Id = id;
 
         public override bool IsValid()
