@@ -6,7 +6,7 @@
 git clone https://github.com/RicardoBastos/Rommanel.git
 
 
-Backend
+**Backend**
   
   Está usando bando de dados in memory, já possui dois registros
   
@@ -17,7 +17,7 @@ Backend
   - Possui swagger para poder fazer os teste de backend
 
 
-Frontend
+**Frontend**
   - Executar o comando npm install
   - Após baixar as dependências rodar o comando npm start
 
